@@ -1,16 +1,10 @@
 # Development
 
-## Hot reloading
+## Storybook
 
-`yarn dev`/`npm run dev` launches a hot reloading server.
+See implemented components:
 
-
-Replace `ImportedApp` at `src/index.tsx` in order to see changes you made to a target component.
-
-
-```ts
-import ImportedApp from "./....."
-```
+`yarn storybook`
 
 
 ## Emoji
