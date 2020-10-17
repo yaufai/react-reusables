@@ -1,17 +1,21 @@
 import React, { CSSProperties } from 'react'
 
+type QuotationType = 'QuoteSign'|'UpperQuoteSign'|'LowerQuoteSign'|'NoQuoteSign' 
+
+
 type QuotationProps = {
     body       : string
     originName?: string
     originURL ?: string
+    quotationType?: QuotationType
 }
 
 
 type QuotationCSSProperties = {
     body?       : CSSProperties
     origin?     : CSSProperties
-    upperSymbol?: CSSProperties
-    lowerSymbol?: CSSProperties
+    leftSymbol? : CSSProperties
+    rightSymbol?: CSSProperties
 }
 
 const QuotationCSS: QuotationCSSProperties = {
@@ -20,7 +24,7 @@ const QuotationCSS: QuotationCSSProperties = {
         padding   : 0,
         position  : 'relative'
     },
-    upperSymbol: {
+    leftSymbol: {
         color     : '#999',
         marginTop : 8,
         marginLeft: 8,
@@ -31,24 +35,43 @@ const QuotationCSS: QuotationCSSProperties = {
         fontFamily: "sans-serif"
     },
     origin: {
-        position: 'absolute',
         right   : 0,
         bottom  : 0,
         paddingBottom: 16,
-        paddingRight : 16
+        paddingRight : 16,
+        textAlign    : 'right'
+    },
+    rightSymbol: {
+        color     : '#999',
+        fontFamily: "sans-serif",
+        fontSize  : 50,
+        position  : 'absolute',
+        bottom    : 25,
+        right     : 20
     }
 }
 
 export default function Quotation(props: QuotationProps) {
+    let withUpperSign = props.quotationType === 'QuoteSign' ||
+                        props.quotationType === 'UpperQuoteSign' ||
+                        props.quotationType === undefined
+    let withLowerSign = props.quotationType === 'QuoteSign' ||
+                        props.quotationType === 'LowerQuoteSign'
     let styles = QuotationCSS
     return <div style={styles.body}>
-        <span style={styles.upperSymbol}>“</span>
+        {withUpperSign
+            ? <span style={styles.leftSymbol}>“</span>
+            : <div />
+        }
         <blockquote style={{
             display: 'inline-block'
         }}>
             {convertTextToReactElements(props.body)}
         </blockquote>
-
+        {withLowerSign
+            ? <span style={styles.rightSymbol}>”</span>
+            : <div />
+        }
         <div style={styles.origin}>
             <a href={props.originURL}>{props.originName}</a>
         </div>
