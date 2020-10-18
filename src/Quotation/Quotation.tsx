@@ -66,7 +66,13 @@ export default function Quotation(props: QuotationProps) {
         <blockquote style={{
             display: 'inline-block'
         }}>
-            {convertTextToReactElements(props.body)}
+            <pre style={{
+                background: styles.body?.background,
+                padding   : 0,
+                margin    : 0
+            }}>
+                {convertTextToReactElements(props.body)}
+            </pre>
         </blockquote>
         {withLowerSign
             ? <span style={styles.rightSymbol}>”</span>
