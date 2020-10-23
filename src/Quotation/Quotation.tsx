@@ -22,7 +22,8 @@ const QuotationCSS: QuotationCSSProperties = {
     body: {
         background: '#f5f5f5',
         padding   : 0,
-        position  : 'relative'
+        position  : 'relative',
+        margin    : 8
     },
     leftSymbol: {
         color     : '#999',

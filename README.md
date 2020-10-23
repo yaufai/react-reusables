@@ -17,5 +17,6 @@ Use emoji in the head of commit messages in order to see commit purposes.
 | :sparkles: | Features      |
 | :wrench:   | Configuration |
 | :up:       | Dependencies  |
+| :recycle:  | Refactoring   |
 
 
