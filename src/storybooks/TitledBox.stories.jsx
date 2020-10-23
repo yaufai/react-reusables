@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 import TitledBox from '../Box/TitledBox'
 
-export default { title: 'Boxes' }
+export default { title: 'Titled Boxes' }
 
 const title = 'Summary'
 const body = <ul>

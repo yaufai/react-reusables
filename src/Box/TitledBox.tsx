@@ -23,7 +23,7 @@ function mergeStyles(props: TitledComponentProps): TitledBoxCSSProperties {
             top         : -10,
             backgroundColor: 'white',
             fontWeight  : 'bold',
-            color       : props.color
+            color       : color
         },
         body: {
             borderRadius: 8,
