@@ -18,5 +18,6 @@ Use emoji in the head of commit messages in order to see commit purposes.
 | :wrench:   | Configuration |
 | :up:       | Dependencies  |
 | :recycle:  | Refactoring   |
+| :tada:     | Release
 
 
