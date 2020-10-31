@@ -4,6 +4,7 @@ import HeaderBox from './Box/HeaderBox'
 import PicturedBox from './Box/PicturedBox'
 import List from './List/List'
 import HighlightPen from './HighlightPen/HighlightPen'
+import Collapsible from './Collapsible/Collapsible'
 
 export {
     Quotation,
@@ -11,5 +12,6 @@ export {
     HeaderBox,
     PicturedBox,
     List,
-    HighlightPen
+    HighlightPen,
+    Collapsible,
 }
