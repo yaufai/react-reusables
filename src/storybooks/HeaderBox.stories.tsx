@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import HeaderBox from '../Box/HeaderBox'
+import { HeaderBox } from '../index'
 
 export default { title: 'Header Boxes' }
 

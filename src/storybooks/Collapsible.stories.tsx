@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import Collapsible from '../Collapsible/Collapsible'
+import { Collapsible } from '../index'
 
 export default { title: 'Collapsible' }
 

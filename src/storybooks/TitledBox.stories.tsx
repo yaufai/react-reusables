@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import TitledBox from '../Box/TitledBox'
+import { TitledBox } from '../index'
 
 export default { title: 'Titled Boxes' }
 

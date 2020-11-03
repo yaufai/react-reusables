@@ -1,6 +1,5 @@
 import React, { Fragment } from 'react'
-import PicturedBox from '../Box/PicturedBox'
-import List from '../List/List'
+import { List, PicturedBox } from '../index'
 
 export default { title: 'Pictured Boxes' }
 

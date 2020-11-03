@@ -1,6 +1,6 @@
 import React, { ReactElement } from "react"
 
-type Bullet = string|((index: number) => string)
+type Bullet = string|((index: number) => (string|ReactElement))
 
 type ListProps = {
     bullet?: Bullet,

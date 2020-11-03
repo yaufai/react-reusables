@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import Quotation from '../Quotation/Quotation'
+import { Quotation } from '../index'
 
 export default { title: 'Quotations' }
 

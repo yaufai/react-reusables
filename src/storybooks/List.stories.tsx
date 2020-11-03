@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import List from '../List/List'
+import { List } from '../index'
 
 export default { title: 'List' }
 
