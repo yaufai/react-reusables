@@ -9,6 +9,7 @@ import Tab from './Tab/Tab'
 import TabMenu from './Tab/TabMenu'
 import TabPane from './Tab/TabPane'
 import Inline  from './Code/Inline'
+import Center  from './Center/Center'
 
 export {
     Quotation,
@@ -21,5 +22,6 @@ export {
     Tab,
     TabMenu,
     TabPane,
-    Inline
+    Inline,
+    Center
 }
