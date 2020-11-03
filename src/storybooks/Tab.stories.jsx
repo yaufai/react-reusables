@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react'
+import Inline from '../Code/Inline'
 import Tab from '../Tab/Tab'
 import TabMenu from '../Tab/TabMenu'
 import TabPane from '../Tab/TabPane'
@@ -18,14 +19,14 @@ export const Standard = () => {
             <TabMenu items={items} />
             <TabPane id='windows'>
                 If you already installed <a href="https://chocolatey.org/packages/nodejs">Homebrew</a>, you can install by executing:
-                <span style={{ background: 'gray' }}>choco install nodejs</span>
+                <Inline>choco install nodejs</Inline>
             </TabPane>
             <TabPane id='mac'>
                 If you already installed <a href="https://formulae.brew.sh/formula/node">Homebrew</a>, you can install by executing:
-                <span style={{ background: 'gray' }}>brew install node</span>
+                <Inline>brew install node</Inline>
             </TabPane>
             <TabPane id='ubuntu'>
-                <span style={{ background: 'gray' }}>sudo apt install nodejs</span>
+                By default, you can install by executing: <Inline>sudo apt install nodejs</Inline>
             </TabPane>
         </Tab>
     </Fragment>

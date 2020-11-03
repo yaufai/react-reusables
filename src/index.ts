@@ -8,6 +8,7 @@ import Collapsible from './Collapsible/Collapsible'
 import Tab from './Tab/Tab'
 import TabMenu from './Tab/TabMenu'
 import TabPane from './Tab/TabPane'
+import Inline  from './Code/Inline'
 
 export {
     Quotation,
@@ -19,5 +20,6 @@ export {
     Collapsible,
     Tab,
     TabMenu,
-    TabPane
+    TabPane,
+    Inline
 }
