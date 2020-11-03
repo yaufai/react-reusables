@@ -5,6 +5,9 @@ import PicturedBox from './Box/PicturedBox'
 import List from './List/List'
 import HighlightPen from './HighlightPen/HighlightPen'
 import Collapsible from './Collapsible/Collapsible'
+import Tab from './Tab/Tab'
+import TabMenu from './Tab/TabMenu'
+import TabPane from './Tab/TabPane'
 
 export {
     Quotation,
@@ -14,4 +17,7 @@ export {
     List,
     HighlightPen,
     Collapsible,
+    Tab,
+    TabMenu,
+    TabPane
 }
