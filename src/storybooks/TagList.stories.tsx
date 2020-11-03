@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import TagList from '../TagList/TagList'
+import { TagList } from '../index'
 
 export default { title: 'TagList' }
 
@@ -17,7 +17,9 @@ const tagsWithLink = [
 
 export const Standard = () => {
     return <Fragment>
+        <h1>Without links</h1>
         <TagList tags={tags} />
+        <h1>With links</h1>
         <TagList tags={tagsWithLink} />
     </Fragment>
 }

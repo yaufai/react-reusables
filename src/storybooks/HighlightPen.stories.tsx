@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import HighlightPen from '../HighlightPen/HighlightPen'
+import { HighlightPen } from '../index'
 
 export default { title: 'HighlightPen' }
 

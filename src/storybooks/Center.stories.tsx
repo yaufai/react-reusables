@@ -1,6 +1,5 @@
 import React, { Fragment } from 'react'
-import Center from '../Center/Center'
-import Inline from '../Code/Inline'
+import { Inline, Center } from '../index'
 
 export default { title: 'Center' }
 

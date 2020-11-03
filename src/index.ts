@@ -5,6 +5,7 @@ import PicturedBox from './Box/PicturedBox'
 import List from './List/List'
 import HighlightPen from './HighlightPen/HighlightPen'
 import Collapsible from './Collapsible/Collapsible'
+import TagList from './TagList/TagList'
 import Tab from './Tab/Tab'
 import TabMenu from './Tab/TabMenu'
 import TabPane from './Tab/TabPane'
@@ -23,5 +24,6 @@ export {
     TabMenu,
     TabPane,
     Inline,
+    TagList,
     Center
 }

@@ -1,8 +1,5 @@
 import React, { Fragment } from 'react'
-import Inline from '../Code/Inline'
-import Tab from '../Tab/Tab'
-import TabMenu from '../Tab/TabMenu'
-import TabPane from '../Tab/TabPane'
+import { Tab, TabMenu, TabPane, Inline } from '../index'
 
 export default { title: 'Tab' }
 
