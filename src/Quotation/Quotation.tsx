@@ -70,7 +70,8 @@ export default function Quotation(props: QuotationProps) {
             <pre style={{
                 background: styles.body?.background,
                 padding   : 0,
-                margin    : 0
+                margin    : 0,
+                overflowWrap: 'anywhere'
             }}>
                 {convertTextToReactElements(props.body)}
             </pre>
