@@ -13,6 +13,7 @@ import TabMenu from './Tab/TabMenu'
 import TabPane from './Tab/TabPane'
 import Inline  from './Code/Inline'
 import Center  from './Center/Center'
+import TOC     from './TOC/TOC'
 
 export {
     Quotation,
@@ -29,5 +30,6 @@ export {
     TabPane,
     Inline,
     TagList,
-    Center
+    Center,
+    TOC
 }
