@@ -71,7 +71,7 @@ export default function Quotation(props: QuotationProps) {
                 background: styles.body?.background,
                 padding   : 0,
                 margin    : 0,
-                overflowWrap: 'anywhere'
+                whiteSpace: 'pre-wrap'
             }}>
                 {convertTextToReactElements(props.body)}
             </pre>
