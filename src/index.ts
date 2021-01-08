@@ -13,6 +13,10 @@ import TabMenu from './Tab/TabMenu'
 import TabPane from './Tab/TabPane'
 import Inline  from './Code/Inline'
 import Center  from './Center/Center'
+import AccordionList from './AccordionList/AccordionList'
+import AccordionListItem from './AccordionList/AccordionListItem'
+import AccordionListItemHeader from './AccordionList/AccordionListItemHeader'
+import AccordionListItemContent from './AccordionList/AccordionListItemContent'
 
 export {
     Quotation,
@@ -29,5 +33,9 @@ export {
     TabPane,
     Inline,
     TagList,
-    Center
+    Center,
+    AccordionList,
+    AccordionListItem,
+    AccordionListItemHeader,
+    AccordionListItemContent
 }
