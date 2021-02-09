@@ -17,6 +17,9 @@ import AccordionList from './AccordionList/AccordionList'
 import AccordionListItem from './AccordionList/AccordionListItem'
 import AccordionListItemHeader from './AccordionList/AccordionListItemHeader'
 import AccordionListItemContent from './AccordionList/AccordionListItemContent'
+import Modal from './Modal/Modal'
+import ModalToggle from './Modal/ModalToggle'
+import ModalWindow from './Modal/ModalWindow'
 
 export {
     Quotation,
@@ -37,5 +40,8 @@ export {
     AccordionList,
     AccordionListItem,
     AccordionListItemHeader,
-    AccordionListItemContent
+    AccordionListItemContent,
+    Modal,
+    ModalToggle,
+    ModalWindow
 }
